@@ -1,0 +1,46 @@
+.line {
+  height: 0.4rem;
+  border-right: 0.0225rem solid rgba(0,0,0,.1);
+}
+.text {
+  height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.2rem;
+
+  .top {
+    color: rgba(0,0,0,.3);
+
+  }
+
+  .down {
+
+    a {
+      color: rgba(0,0,0,.9);
+    }
+
+    span {
+      color: rgba(0,0,0,.3);
+    }
+  }
+}
+
+.forgetPassword {
+  height: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+
+  a {
+    color: $--color-primary;
+  }
+
+}
+.loginTypeBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $--color-primary;
+}
